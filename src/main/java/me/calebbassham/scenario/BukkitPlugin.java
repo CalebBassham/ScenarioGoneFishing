@@ -10,8 +10,4 @@ public class BukkitPlugin extends JavaPlugin {
         ScenarioManager.register(new GoneFishing(), this);
     }
 
-    @Override
-    public void onDisable() {
-        ScenarioManager.unregister("Scenario Manager");
-    }
 }
