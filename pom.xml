@@ -33,5 +33,9 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <finalName>scen-${artifactId}</finalName>
+    </build>
+
 
 </project>

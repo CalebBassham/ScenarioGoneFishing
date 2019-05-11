@@ -1,4 +1,5 @@
 name: GoneFishing
 version: 1.0.0
 author: Caleb Bassham
+depend: [ScenarioManager]
 main: me.calebbassham.scenario.BukkitPlugin
